@@ -167,8 +167,8 @@ button {
         width: 100%; 
     }
 }
-@media (min-width:400px) {
-    .content { background: #f79c56;
+@media (max-width:768px) {
+    .formulario { background: #f79c56;
         border-radius: 3px;
     }
     
@@ -273,7 +273,7 @@ footer nav ul li a {
    display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 500px;
+    /*width: 500px;*/
 	margin: 20px auto;
 	padding: 20px;
     
